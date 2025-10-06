@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserLogin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            background-color: seashell;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .frm {
+            background-color: white;
+            padding: 40px;
+            border-radius: 20px;
+            display: flex;
+            width: 300px;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .labput {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        input {
+            padding: 7px 10px;
+            border-radius: 10px;
+            border-color: blue;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <form class="frm" action="">
+            <h4 style="font-size:larger; color:blue; ">Login Form</h4>
+            <div class="labput">
+                <label for="userName">User Name</label>
+                <input id="userName" type="text">
+            </div>
+      
+            <button
+                style="background-color: blue; margin-right:auto; color:white; padding:10px 20px; border:transparent; border-radius: 10px;"
+                type="submit">Submit
+            </button>
+        </form>
+    </section>
+</body>
+
+</html>
